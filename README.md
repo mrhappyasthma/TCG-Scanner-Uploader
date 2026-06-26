@@ -10,6 +10,10 @@
 
 4. Update `config.json` with the API key values from steps 1 and 2.
 
+## Setup
+
+Place all of the scans (`.jpg`) files in a single directory.
+
 ## Run
 
 To run (after all prerequisites are done)
@@ -31,3 +35,7 @@ venv\Scripts\activate
 3. `pip install -r requirements.txt`
 
 4. `python gui_scanner.py`
+
+5. Make sure the working directory path matches where the `.jpg` files of the scans are stored.
+
+6. Press `Start processing`
