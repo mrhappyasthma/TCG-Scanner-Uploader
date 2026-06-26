@@ -2,9 +2,9 @@
 
 ## Prerequisites
 
-1. Get an API key for the pokemon API: https://dev.pokemontcg.io/dashboard
+1. Get an API key for the pokemon API: https://dev.pokemontcg.io/dashboard (20,000/day)
 
-2. Get an API key for Gemini: https://aistudio.google.com/u/1/api-keys
+2. Get an API key for Gemini: https://aistudio.google.com/u/1/api-keys (limits: 1000/day, 10/minute -> The script is rate limited to avoid this cap)
 
 3. Copy `config.example.json` to `config.json`.
 
